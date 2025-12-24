@@ -255,3 +255,14 @@ def Generate_Snapshot(config):
 
     buffer.seek(0)
     return Image.open(buffer)
+# args = {
+#     "spreadsheet_id": "1a9Zu-hWWH8lRubdv54xHnUg2UFvW1ugUzM4K-clen7I",
+#     "sheet_name": "Base",
+#     "column_start": "A",
+#     "column_end": "x",
+#     "row_start": 1,
+#     "row_end": 19,
+# }
+
+# image = Generate_Snapshot(args)
+# image.show()
